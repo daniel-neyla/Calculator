@@ -6,9 +6,16 @@
 main {
 }
 
+.title {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 64px;
+}
+
 .calculator-grid {
   border: 15px solid black;
   margin: 0 auto;
+  margin-top: 100px;
   width: 350px;
   height: 600px;
   display: grid;
@@ -72,4 +79,9 @@ main {
   background-color: rgb(47, 120, 47);
   grid-column: 1 / -1;
   grid-row: 1 / 3;
+}
+
+.creator {
+  text-align: center;
+  margin-top: 20px;
 }
