@@ -76,9 +76,30 @@ main {
 }
 
 .display {
+  border: 5px solid rgba(0, 160, 0, 0.81);
   background-color: rgb(47, 120, 47);
   grid-column: 1 / -1;
   grid-row: 1 / 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.operand,
+.result {
+  font-size: 24px;
+  font-family: sans-serif;
+  padding: 10px;
+  align-self: flex-end;
+}
+
+.operand {
+  /* word-wrap: break-word;
+  word-break: break-all; */
+}
+.result {
+  /* align-self: flex-end; */
 }
 
 .creator {
